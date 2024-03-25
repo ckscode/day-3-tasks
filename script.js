@@ -1,7 +1,7 @@
-//!Compaing json properties
-console.log("Task 1")
-let obj1 = {name:"person1",age:5};
-let obj2 = {age:5,name:"person1"};
+//!Comparing json properties
+
+let obj1 = {"name":"person1","age":5};
+let obj2 = {"age":5,"name":"person1"};
 
 let str1 = JSON.stringify(obj1,Object.keys(obj1)) 
 let str2 = JSON.stringify(obj2,Object.keys(obj1)) 
