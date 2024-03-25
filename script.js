@@ -44,7 +44,7 @@ request2.onload = function(){
        var result2 = JSON.parse(data2);
 
        for(var i=0;i<result2.length;i++){
-        console.log("Country name: "+ result2[i].name.common+" ,Region: "+ result2[i].region+" ,Sub-region: "+ result2[i].subregion+" ,Population:"+ result2[i].population,);
+        console.log("Country name: ", result2[i].name.common," ,Region: ", result2[i].region," ,Sub-region: ", result2[i].subregion," ,Population:", result2[i].population);
        }
       
 }
